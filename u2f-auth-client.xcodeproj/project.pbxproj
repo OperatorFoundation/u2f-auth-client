@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA83490320E1E1060023B893 /* plugin-u2f-client.c in Sources */ = {isa = PBXBuildFile; fileRef = CA8348FC20E1E1060023B893 /* plugin-u2f-client.c */; };
+		CA83490920E1E1850023B893 /* openvpn-plugin.h in Headers */ = {isa = PBXBuildFile; fileRef = CA83490620E1E1850023B893 /* openvpn-plugin.h */; };
+		CA83491420E1E2CC0023B893 /* libu2f-host.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA83491320E1E2CC0023B893 /* libu2f-host.a */; };
+		CA83491820E1E31B0023B893 /* u2f-host-version.h in Headers */ = {isa = PBXBuildFile; fileRef = CA83491520E1E31B0023B893 /* u2f-host-version.h */; };
+		CA83491920E1E31B0023B893 /* u2f-host.h in Headers */ = {isa = PBXBuildFile; fileRef = CA83491620E1E31B0023B893 /* u2f-host.h */; };
+		CA83491A20E1E31B0023B893 /* u2f-host-types.h in Headers */ = {isa = PBXBuildFile; fileRef = CA83491720E1E31B0023B893 /* u2f-host-types.h */; };
+		CA83492420E1E3950023B893 /* mprintf.h in Headers */ = {isa = PBXBuildFile; fileRef = CA83491C20E1E3950023B893 /* mprintf.h */; };
+		CA83492520E1E3950023B893 /* stdcheaders.h in Headers */ = {isa = PBXBuildFile; fileRef = CA83491D20E1E3950023B893 /* stdcheaders.h */; };
+		CA83492620E1E3950023B893 /* system.h in Headers */ = {isa = PBXBuildFile; fileRef = CA83491E20E1E3950023B893 /* system.h */; };
+		CA83492720E1E3950023B893 /* curl.h in Headers */ = {isa = PBXBuildFile; fileRef = CA83491F20E1E3950023B893 /* curl.h */; };
+		CA83492820E1E3950023B893 /* easy.h in Headers */ = {isa = PBXBuildFile; fileRef = CA83492020E1E3950023B893 /* easy.h */; };
+		CA83492920E1E3950023B893 /* typecheck-gcc.h in Headers */ = {isa = PBXBuildFile; fileRef = CA83492120E1E3950023B893 /* typecheck-gcc.h */; };
+		CA83492A20E1E3950023B893 /* curlver.h in Headers */ = {isa = PBXBuildFile; fileRef = CA83492220E1E3950023B893 /* curlver.h */; };
+		CA83492B20E1E3950023B893 /* multi.h in Headers */ = {isa = PBXBuildFile; fileRef = CA83492320E1E3950023B893 /* multi.h */; };
+		CA83492D20E1E3AE0023B893 /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA83492C20E1E3AE0023B893 /* libcurl.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA8348E820E1E0970023B893 /* libu2f-auth-client.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "libu2f-auth-client.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA8348FC20E1E1060023B893 /* plugin-u2f-client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "plugin-u2f-client.c"; sourceTree = "<group>"; };
+		CA83490620E1E1850023B893 /* openvpn-plugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "openvpn-plugin.h"; sourceTree = "<group>"; };
+		CA83490F20E1E1C70023B893 /* openvpn-vsocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "openvpn-vsocket.h"; sourceTree = "<group>"; };
+		CA83491320E1E2CC0023B893 /* libu2f-host.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libu2f-host.a"; path = "libu2f-host/lib/libu2f-host.a"; sourceTree = "<group>"; };
+		CA83491520E1E31B0023B893 /* u2f-host-version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "u2f-host-version.h"; path = "include/u2f-host/u2f-host-version.h"; sourceTree = "<group>"; };
+		CA83491620E1E31B0023B893 /* u2f-host.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "u2f-host.h"; path = "include/u2f-host/u2f-host.h"; sourceTree = "<group>"; };
+		CA83491720E1E31B0023B893 /* u2f-host-types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "u2f-host-types.h"; path = "include/u2f-host/u2f-host-types.h"; sourceTree = "<group>"; };
+		CA83491C20E1E3950023B893 /* mprintf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mprintf.h; path = include/curl/mprintf.h; sourceTree = "<group>"; };
+		CA83491D20E1E3950023B893 /* stdcheaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stdcheaders.h; path = include/curl/stdcheaders.h; sourceTree = "<group>"; };
+		CA83491E20E1E3950023B893 /* system.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = system.h; path = include/curl/system.h; sourceTree = "<group>"; };
+		CA83491F20E1E3950023B893 /* curl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = curl.h; path = include/curl/curl.h; sourceTree = "<group>"; };
+		CA83492020E1E3950023B893 /* easy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = easy.h; path = include/curl/easy.h; sourceTree = "<group>"; };
+		CA83492120E1E3950023B893 /* typecheck-gcc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "typecheck-gcc.h"; path = "include/curl/typecheck-gcc.h"; sourceTree = "<group>"; };
+		CA83492220E1E3950023B893 /* curlver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = curlver.h; path = include/curl/curlver.h; sourceTree = "<group>"; };
+		CA83492320E1E3950023B893 /* multi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = multi.h; path = include/curl/multi.h; sourceTree = "<group>"; };
+		CA83492C20E1E3AE0023B893 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = curl/lib/libcurl.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA8348E520E1E0970023B893 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA83492D20E1E3AE0023B893 /* libcurl.a in Frameworks */,
+				CA83491420E1E2CC0023B893 /* libu2f-host.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA8348DF20E1E0970023B893 = {
+			isa = PBXGroup;
+			children = (
+				CA83490E20E1E1B40023B893 /* OpenVPN Plugin API */,
+				CA83491120E1E2260023B893 /* libu2f-host */,
+				CA83491B20E1E3380023B893 /* curl */,
+				CA8348FC20E1E1060023B893 /* plugin-u2f-client.c */,
+				CA8348E920E1E0970023B893 /* Products */,
+				CA83491220E1E2CB0023B893 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA8348E920E1E0970023B893 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA8348E820E1E0970023B893 /* libu2f-auth-client.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA83490E20E1E1B40023B893 /* OpenVPN Plugin API */ = {
+			isa = PBXGroup;
+			children = (
+				CA83490620E1E1850023B893 /* openvpn-plugin.h */,
+				CA83490F20E1E1C70023B893 /* openvpn-vsocket.h */,
+			);
+			path = "OpenVPN Plugin API";
+			sourceTree = "<group>";
+		};
+		CA83491120E1E2260023B893 /* libu2f-host */ = {
+			isa = PBXGroup;
+			children = (
+				CA83491720E1E31B0023B893 /* u2f-host-types.h */,
+				CA83491520E1E31B0023B893 /* u2f-host-version.h */,
+				CA83491620E1E31B0023B893 /* u2f-host.h */,
+			);
+			path = "libu2f-host";
+			sourceTree = "<group>";
+		};
+		CA83491220E1E2CB0023B893 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA83492C20E1E3AE0023B893 /* libcurl.a */,
+				CA83491320E1E2CC0023B893 /* libu2f-host.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA83491B20E1E3380023B893 /* curl */ = {
+			isa = PBXGroup;
+			children = (
+				CA83491F20E1E3950023B893 /* curl.h */,
+				CA83492220E1E3950023B893 /* curlver.h */,
+				CA83492020E1E3950023B893 /* easy.h */,
+				CA83491C20E1E3950023B893 /* mprintf.h */,
+				CA83492320E1E3950023B893 /* multi.h */,
+				CA83491D20E1E3950023B893 /* stdcheaders.h */,
+				CA83491E20E1E3950023B893 /* system.h */,
+				CA83492120E1E3950023B893 /* typecheck-gcc.h */,
+			);
+			path = curl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CA8348E620E1E0970023B893 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA83492820E1E3950023B893 /* easy.h in Headers */,
+				CA83491920E1E31B0023B893 /* u2f-host.h in Headers */,
+				CA83492520E1E3950023B893 /* stdcheaders.h in Headers */,
+				CA83492B20E1E3950023B893 /* multi.h in Headers */,
+				CA83492620E1E3950023B893 /* system.h in Headers */,
+				CA83491A20E1E31B0023B893 /* u2f-host-types.h in Headers */,
+				CA83492A20E1E3950023B893 /* curlver.h in Headers */,
+				CA83490920E1E1850023B893 /* openvpn-plugin.h in Headers */,
+				CA83491820E1E31B0023B893 /* u2f-host-version.h in Headers */,
+				CA83492420E1E3950023B893 /* mprintf.h in Headers */,
+				CA83492720E1E3950023B893 /* curl.h in Headers */,
+				CA83492920E1E3950023B893 /* typecheck-gcc.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CA8348E720E1E0970023B893 /* u2f-auth-client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA8348EC20E1E0970023B893 /* Build configuration list for PBXNativeTarget "u2f-auth-client" */;
+			buildPhases = (
+				CA8348E420E1E0970023B893 /* Sources */,
+				CA8348E520E1E0970023B893 /* Frameworks */,
+				CA8348E620E1E0970023B893 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "u2f-auth-client";
+			productName = "U2F Client Transport Plugin";
+			productReference = CA8348E820E1E0970023B893 /* libu2f-auth-client.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA8348E020E1E0970023B893 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Operator Foundation";
+				TargetAttributes = {
+					CA8348E720E1E0970023B893 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = CA8348E320E1E0970023B893 /* Build configuration list for PBXProject "u2f-auth-client" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA8348DF20E1E0970023B893;
+			productRefGroup = CA8348E920E1E0970023B893 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA8348E720E1E0970023B893 /* u2f-auth-client */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA8348E420E1E0970023B893 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA83490320E1E1060023B893 /* plugin-u2f-client.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CA8348EA20E1E0970023B893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CA8348EB20E1E0970023B893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CA8348ED20E1E0970023B893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67Y4NSLDQ3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libu2f-host/lib",
+					"$(PROJECT_DIR)/curl/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CA8348EE20E1E0970023B893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67Y4NSLDQ3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libu2f-host/lib",
+					"$(PROJECT_DIR)/curl/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA8348E320E1E0970023B893 /* Build configuration list for PBXProject "u2f-auth-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA8348EA20E1E0970023B893 /* Debug */,
+				CA8348EB20E1E0970023B893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA8348EC20E1E0970023B893 /* Build configuration list for PBXNativeTarget "u2f-auth-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA8348ED20E1E0970023B893 /* Debug */,
+				CA8348EE20E1E0970023B893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA8348E020E1E0970023B893 /* Project object */;
+}

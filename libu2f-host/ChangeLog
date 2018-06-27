@@ -1,0 +1,812 @@
+2018-03-07  Klas Lindfors <klas@yubico.com>
+
+	* NEWS: NEWS for 1.1.5
+
+2018-03-07  Klas Lindfors <klas@yubico.com>
+
+	* : commit 84a3dc85f8a90930e073e892ced6bad813a999b4 Author: Philipp
+	Kern <pkern@google.com> Date:   Wed Feb 28 12:36:15 2018 +0100
+
+2018-02-12  Dain Nilsson <dain@yubico.com>
+
+	* : commit cf912347500156472e19a3a49c883331a8fc113e Author: Dain
+	Nilsson <dain@yubico.com> Date:   Mon Feb 12 12:55:35 2018 +0100
+
+2018-01-23  Klas Lindfors <klas@yubico.com>
+
+	* : commit c61dd0a6b6e0aef05a9d66cf543b159b7be8a468 Author: Szczepan
+	Zalega <szczepan@nitrokey.com> Date:   Tue Jan 23 12:19:24 2018
+	+0100
+
+2017-12-18  Klas Lindfors <klas@yubico.com>
+
+	* : commit cc02c5cf59c427d050d743101167f02635e87c3f Author: Björn
+	Esser <besser82@fedoraproject.org> Date:   Sat Dec 16 14:12:44 2017
+	+0100
+
+2017-11-29  Klas Lindfors <klas@yubico.com>
+
+	* : commit af4812c1748543b33cc91dc1277f3a55dda6646f Author: Andreas
+	Schildbach <andreas@schildbach.de> Date:   Fri Nov 17 20:44:39 2017
+	+0100
+
+2017-09-01  Klas Lindfors <klas@yubico.com>
+
+	* NEWS, configure.ac: bump versions to 1.1.5
+
+2017-09-01  Klas Lindfors <klas@yubico.com>
+
+	* NEWS: NEWS for 1.1.4
+
+2017-08-22  Klas Lindfors <klas@yubico.com>
+
+	* : commit bc7b60f3eab2bfbe19533072cf78b9a202db57aa Author: Leon P
+	Smith <leon@melding-monads.com> Date:   Sun Aug 20 07:54:06 2017
+	+0000
+
+2017-08-11  Klas Lindfors <klas@yubico.com>
+
+	* : commit 1ab3bedb809d3706da11cea6b1450ffcfeb16f11 Author: Chuan Ji
+	<ji@chu4n.com> Date:   Wed Aug 9 14:55:07 2017 -0700
+
+2017-08-04  Klas Lindfors <klas@yubico.com>
+
+	* : commit 889c1568522581a951b5b9c224bd43b906a6743d Author: Carlos J
+	<cjpm@gmx.us> Date:   Sun Jul 16 19:39:03 2017 +0200
+
+2017-06-30  Klas Lindfors <klas@yubico.com>
+
+	* : commit e6ee395fc7ee66884adefb2056a40a8e4ca514fd Merge: 1515b84
+	d0936c5 Author: Klas Lindfors <klas@yubico.com> Date:   Tue May 9
+	09:03:23 2017 +0200
+
+2017-05-08  Francis Lavoie <lavofr@gmail.com>
+
+	* 70-old-u2f.rules: Update 70-old-u2f.rules
+
+2017-05-08  Francis Lavoie <lavofr@gmail.com>
+
+	* 70-u2f.rules: Add Bluink Key to 70-u2f.rules Hi! Requesting to add Bluink Key to the list of devices in udev rules
+	for Linux.  Thanks! https://bluink.ca/
+
+2017-04-26  David Henot <david.henot@dashlane.com>
+
+	* u2f-host/internal.h: Bump buffer size
+
+2017-04-21  Klas Lindfors <klas@yubico.com>
+
+	* : commit d3ff8e7ea2ba0c83338d792dab92eb0a1023c468 Author:
+	Christopher Ursich <christopher.ursich@ursichfamily.org> Date:   Thu
+	Apr 20 10:42:21 2017 -0400
+
+2017-02-16  Thordur Bjornsson <thorduri@yubico.com>
+
+	* autogen.sh: ac: add autogen.sh
+
+2017-02-16  Klas Lindfors <klas@yubico.com>
+
+	* 70-old-u2f.rules: add VASCO SeccureClick to 70-old-u2f.rules
+
+2017-02-16  Klas Lindfors <klas@yubico.com>
+
+	* : commit 62135c376338e44b03012712830244d6ad4520ae Author: Harald
+	Wagener <wagener@gmail.com> Date:   Tue Feb 14 16:55:48 2017 +0100
+
+2017-01-17  Klas Lindfors <klas@yubico.com>
+
+	* 70-old-u2f.rules, 70-u2f.rules: add lgpl license headers to udev
+	rules fixes #71
+
+2016-11-30  Klas Lindfors <klali@avm.se>
+
+	* : Merge pull request #69 from Rondom/feitian_usb_ids Add additional USB product IDs for Feitian devices
+
+2016-11-22  Klas Lindfors <klas@yubico.com>
+
+	* 70-old-u2f.rules: add u2f zero rule to 70-old-u2f.rules
+
+2016-11-22  Klas Lindfors <klali@avm.se>
+
+	* : Merge pull request #68 from conorpp/patch-1 Add rule for U2F Zero
+
+2016-10-27  Klas Lindfors <klas@yubico.com>
+
+	* 70-old-u2f.rules: Add ePass FIDO support for older udev rules.
+
+2016-10-27  Klas Lindfors <klali@avm.se>
+
+	* : Merge pull request #65 from angeloc/master Add ePass FIDO support
+
+2016-10-04  Klas Lindfors <klas@yubico.com>
+
+	* NEWS, configure.ac: bump versions
+
+2016-10-04  Klas Lindfors <klas@yubico.com>
+
+	* NEWS: NEWS for 1.1.3
+
+2016-10-04  Klas Lindfors <klas@yubico.com>
+
+	* macosx.mk: drop la and pkgconfig files since they won't make sense
+	anyways this could be revisited in the future if we add some sort of
+	installer for putting these files in a place that makes sense.
+
+2016-10-04  Klas Lindfors <klas@yubico.com>
+
+	* macosx.mk: switch back to original hidapi for mac fixes #61
+
+2016-09-29  Klas Lindfors <klas@yubico.com>
+
+	* README: try to clarify dependencies for windows cross-build fixes #63
+
+2016-09-23  Klas Lindfors <klas@yubico.com>
+
+	* 70-old-u2f.rules, 70-u2f.rules: apparently the hypersecu u2f
+	device can have different vendor ids fixes #62
+
+2016-09-12  Klas Lindfors <klas@yubico.com>
+
+	* src/Makefile.am: add an order-only dep on binary for help2man to
+	support parallel builds fixes #3
+
+2016-09-12  Klas Lindfors <klas@yubico.com>
+
+	* 70-old-u2f.rules: merge over udev changes from 70-u2f.rules to
+	70-old-u2f.rules
+
+2016-09-12  Klas Lindfors <klas@yubico.com>
+
+	* macosx.mk: switch hidapi for mac to a fork this fixes a problem where you will get failures for composite
+	devices offering multiple hid interfaces due to path collisions.
+
+2016-07-14  Alessio Di Mauro <a-dma@users.noreply.github.com>
+
+	* : Merge pull request #60 from herrjemand/patch-1 Add udev rules for JaCarta U2F
+
+2016-06-28  Klas Lindfors <klas@yubico.com>
+
+	* doc/Mode_switch_YubiKey.adoc: fix type YuiKey -> YubiKey
+
+2016-06-22  Klas Lindfors <klas@yubico.com>
+
+	* NEWS, configure.ac: bump versions
+
+2016-06-22  Klas Lindfors <klas@yubico.com>
+
+	* NEWS: NEWS for 1.1.2
+
+2016-06-22  Klas Lindfors <klas@yubico.com>
+
+	* u2f-host/inc/u2f.h, u2f-host/inc/u2f_hid.h, u2f-host/u2f-host.h: 
+	drop unneeded parantheses maint.mk complains on syntax-check
+
+2016-06-22  Klas Lindfors <klas@yubico.com>
+
+	* u2f-host/CMakeLists.txt: drop trailing space maint.mk rules complain..
+
+2016-06-16  Klas Lindfors <klas@yubico.com>
+
+	* NEWS: better heading for NEWS
+
+2016-06-16  Klas Lindfors <klas@yubico.com>
+
+	* Makefile.am, README, cfg.mk, macosx.mk, src/Makefile.am,
+	src/cmdline.ggo, src/u2f-host.c, windows.mk: Change license of
+	Yubico owned files to LGPL 2.1+ fixes #55
+
+2016-05-19  Klas Lindfors <klali@avm.se>
+
+	* : Merge pull request #51 from Dashlane/cmake Cmake build script
+
+2016-04-05  David Henot <david.henot@dashlane.com>
+
+	* CMakeLists.txt, u2f-host/CMakeLists.txt,
+	u2f-host/config.h.cmake.in, u2f-host/u2f-host.h: Add Cmake
+	configuration for compilation with Visual Studio
+
+2016-05-17  Klas Lindfors <klali@avm.se>
+
+	* : Merge pull request #56 from robn/master Add udev rules for Feitian ePass FIDO
+
+2016-05-10  Klas Lindfors <klas@yubico.com>
+
+	* Makefile.am: mode switch document swtiched names
+
+2016-05-02  Klas Lindfors <klali@avm.se>
+
+	* : Merge pull request #54 from Dashlane/visual-studio-fixes Visual studio fixes
+
+2016-04-21  Klas Lindfors <klas@yubico.com>
+
+	* doc/{Mode_switch_YubiKey_NEO.adoc => Mode_switch_YubiKey.adoc}: 
+	change name of mode switch document since it's valid for 4 as well
+
+2015-12-16  David Hénot <david.henot@dashlane.com>
+
+	* u2f-host/inc/u2f.h, u2f-host/inc/u2f_hid.h, u2f-host/u2f-host.h: 
+	Fix compilation on VS2008
+
+2015-12-10  dhenot <david.denot@dashlane.com>
+
+	* u2f-host/authenticate.c: Put declarations before statements for
+	C89 compatibility
+
+2015-12-09  dhenot <david.denot@dashlane.com>
+
+	* u2f-host/authenticate.c, u2f-host/devs.c, u2f-host/register.c: 
+	unistd.h is already included by internal.h for non-Windows platforms
+	and missing on Windows
+
+2016-03-29  Klas Lindfors <klas@yubico.com>
+
+	* README: try to clarify how osx and win builds are used fixes #50
+
+2016-03-16  Klas Lindfors <klas@yubico.com>
+
+	* README: use https URL for git clone
+
+2016-03-15  Klas Lindfors <klas@yubico.com>
+
+	* src/u2f-host.c, u2f-host/authenticate.c: for completeness check
+	length of reply
+
+2016-03-15  Klas Lindfors <klas@yubico.com>
+
+	* src/u2f-host.c, u2f-host/authenticate.c: let authenticate return
+	U2FH_OK if touch is not required and the key indicates for touch also fix output slightly when there
+	is no response relates #45
+
+2016-03-14  Klas Lindfors <klas@yubico.com>
+
+	* NEWS, configure.ac: bump versions.
+
+2016-03-14  Klas Lindfors <klas@yubico.com>
+
+	* NEWS: NEWS for 1.1.1
+
+2016-03-14  Klas Lindfors <klas@yubico.com>
+
+	* README: libhidapi-dev is needed for building fixes #48
+
+2016-03-14  Klas Lindfors <klas@yubico.com>
+
+	* u2f-host/devs.c: refactor close_device() to be safer let it return a pointer to dev->next and use that in some places we
+	where unsafely iterating the list and removing entries in a for loop
+
+2016-03-14  Klas Lindfors <klas@yubico.com>
+
+	* src/u2f-host.c: drop code validating the scheme of origin fixes #49
+
+2016-03-14  Klas Lindfors <klas@yubico.com>
+
+	* u2f-host/u2fmisc.c: fix indentation
+
+2016-03-11  Klas Lindfors <klas@yubico.com>
+
+	* u2f-host/authenticate.c: authenticate increased iterations before
+	checking if it was 0 thus remembering which devices to skip from call to call
+
+2016-03-11  Klas Lindfors <klas@yubico.com>
+
+	* u2f-host/authenticate.c: fix an issue where we left the
+	authenticate loop early on failure this only happens on multiple devices where a non-interesting device
+	is last in the list
+
+2016-03-07  Klas Lindfors <klali@avm.se>
+
+	* : Merge pull request #47 from jaym/fix-uninitialized Use index from u2fdevice struct
+
+2016-02-15  Klas Lindfors <klas@yubico.com>
+
+	* NEWS, configure.ac: bump versions
+
+2016-02-15  Klas Lindfors <klas@yubico.com>
+
+	* NEWS: NEWS for 1.1.0
+
+2016-02-15  Klas Lindfors <klas@yubico.com>
+
+	* u2f-host/authenticate.c, u2f-host/register.c: use strcpy() instead
+	of strncpy() should be safe since we check length
+
+2016-02-08  Klas Lindfors <klali@avm.se>
+
+	* : Merge pull request #46 from conorpp/unsigned-ints use unsigned ints to prevent buffer overflows
+
+2016-02-05  Klas Lindfors <klas@yubico.com>
+
+	* u2f-host/u2fmisc.c: replace sprintf to unsigned char* with just
+	setting the bytes
+
+2016-01-28  Conor <conorpp@vt.edu>
+
+	* u2f-host/u2fmisc.c: use unsigned ints to prevent buffer overflows
+
+2015-12-11  Klas Lindfors <klas@yubico.com>
+
+	* u2f-host/cdecode.c: fix indentation of cdecode
+
+2015-12-11  Klas Lindfors <klas@yubico.com>
+
+	* u2f-host/devs.c: fixup discover_devs
+
+2015-12-10  Klas Lindfors <klas@yubico.com>
+
+	* u2f-host/authenticate.c, u2f-host/devs.c, u2f-host/internal.h,
+	u2f-host/register.c, u2f-host/u2fmisc.c: start a refactor of the
+	devices array to a linked list This allows us to not keep dead devices around, treat the index as
+	an increasting id instead.  This also fixes the variable size array
+	in authenticate by usign a temporary field on each device for
+	skipping.
+
+2015-12-10  Klas Lindfors <klali@avm.se>
+
+	* : Merge pull request #36 from neuhaus/patch-2 typos etc
+
+2015-12-03  Klas Lindfors <klas@yubico.com>
+
+	* u2f-host/authenticate.c, u2f-host/register.c: on SIZE_ERROR return
+	the length needed in *response_len
+
+2015-12-02  Klas Lindfors <klas@yubico.com>
+
+	* u2f-host/cencode.c: don't do base64 padding u2f base64 is supposet to be non-padded fixes #31
+
+2015-12-02  Klas Lindfors <klas@yubico.com>
+
+	* u2f-host/register.c, u2f-host/u2fmisc.c: make indent
+
+2015-12-02  Klas Lindfors <klas@yubico.com>
+
+	* src/u2f-host.c: use u2fh_authenticate2() and u2fh_register2()
+
+2015-12-02  Klas Lindfors <klas@yubico.com>
+
+	* configure.ac, u2f-host/authenticate.c, u2f-host/error.c,
+	u2f-host/register.c, u2f-host/u2f-host-types.h,
+	u2f-host/u2f-host.h, u2f-host/u2f-host.map: add u2fh_authenticate2()
+	and u2fh_register2() they both take allocated memory and a length instead of passing back
+	allocated memory from the library.  fixes #41
+
+2015-11-19  Klas Lindfors <klali@avm.se>
+
+	* : Merge pull request #40 from prefiks/valgrind_warning_fix Don't do memcmp on uninitialized memory
+
+2015-11-16  Klas Lindfors <klali@avm.se>
+
+	* : Merge pull request #39 from prefiks/fix_json_memory_management Don't release json object that we don't own no more
+
+2015-11-12  Klas Lindfors <klali@avm.se>
+
+	* : Merge pull request #37 from prefiks/send_apdu_like_chrome Make send_apdu send data like chrome does
+
+2015-11-10  Paweł Chmielowski <pchmielowski@process-one.net>
+
+	* 70-old-u2f.rules, 70-u2f.rules: Add udev rules for Keydo AES
+
+2015-11-10  Paweł Chmielowski <pchmielowski@process-one.net>
+
+	* u2f-host/u2fmisc.c: Make send_apdu send data like chrome does This improves compatibility with NeoWave Keydo AES and HyperFido
+
+2015-11-06  Sven Neuhaus <neuhaus@users.noreply.github.com>
+
+	* 70-old-u2f.rules: Update 70-old-u2f.rules
+
+2015-11-06  Sven Neuhaus <neuhaus@users.noreply.github.com>
+
+	* 70-u2f.rules: Update 70-u2f.rules
+
+2015-11-05  Sven Neuhaus <neuhaus@users.noreply.github.com>
+
+	* doc/Mode_switch_YubiKey_NEO.adoc: missing hyphen
+
+2015-11-05  Sven Neuhaus <neuhaus@users.noreply.github.com>
+
+	* src/cmdline.ggo: missing hypen
+
+2015-11-05  Sven Neuhaus <neuhaus@users.noreply.github.com>
+
+	* : Merge pull request #2 from neuhaus/patch-4 minor typos
+
+2015-11-05  Sven Neuhaus <neuhaus@users.noreply.github.com>
+
+	* README: minor typos
+
+2015-11-05  Sven Neuhaus <neuhaus@users.noreply.github.com>
+
+	* 70-old-u2f.rules: typo
+
+2015-11-05  Sven Neuhaus <neuhaus@users.noreply.github.com>
+
+	* 70-u2f.rules: typo
+
+2015-11-03  Klas Lindfors <klali@avm.se>
+
+	* : Merge pull request #32 from prefiks/master Don't return success from u2fh_{register/authenticate} without also
+	setting response output argument
+
+2015-11-01  Ed Schaller <schallee@darkmist.net>
+
+	* src/Makefile.am, tests/Makefile.am: Enable out of src tree builds.  u2f-host-version.h is dynamically generated so the
+	$(top_builddir)/u2f-host needs to be added to AM_CPPFLAGS.
+
+2015-10-30  Paweł Chmielowski <pchmielowski@process-one.net>
+
+	* u2f-host/authenticate.c, u2f-host/register.c: Don't return success
+	from u2fh_{register/authenticate} when no data was received Without this change it was possible to get U2FH_OK return code from
+	those function and get response output variable pointing to random
+	memory, that could lead to SIGSEGV.
+
+2015-10-29  Alessio Di Mauro <alessio@yubico.com>
+
+	* src/cmdline.ggo, u2f-host/u2f-host-types.h: Fix typo.
+
+2015-09-30  Klas Lindfors <klas@yubico.com>
+
+	* 70-old-u2f.rules: add more devices to old u2f rules fixes #29
+
+2015-09-30  Klas Lindfors <klali@avm.se>
+
+	* : Merge pull request #30 from mhalano/more-rules Add new udev rules for other FIDO U2F tokens.
+
+2015-08-27  Klas Lindfors <klas@yubico.com>
+
+	* .gitignore: ignore more
+
+2015-08-27  Klas Lindfors <klas@yubico.com>
+
+	* NEWS, configure.ac: bump versions
+
+2015-08-27  Klas Lindfors <klas@yubico.com>
+
+	* NEWS: NEWS for 1.0.0
+
+2015-08-27  Klas Lindfors <klas@yubico.com>
+
+	* Makefile.am: use $(..) instead of @..@
+
+2015-08-27  Klas Lindfors <klas@yubico.com>
+
+	* src/Makefile.am, src/u2f-host.c, tests/Makefile.am,
+	tests/basic.c, u2f-host/internal.h, u2f-host/u2f-host.h,
+	u2f-host/version.c: fixup header inclusions to match the pkg-config fixes #13
+
+2015-08-27  Klas Lindfors <klas@yubico.com>
+
+	* u2f-host/internal.h: include windows.h on WIN32 otherwise mingw won't find out how to use Sleep()
+
+2015-08-27  Klas Lindfors <klas@yubico.com>
+
+	* u2f-host/register.c: don't prepare a response if there was no data
+
+2015-08-27  Klas Lindfors <klas@yubico.com>
+
+	* u2f-host/authenticate.c, u2f-host/error.c, u2f-host/register.c,
+	u2f-host/u2f-host-types.h: add a timeout for authenticate and
+	register for now it's hard-coded to 15 iterations of the loop which should be
+	close to 15 seconds.  fixes #24
+
+2015-08-27  Klas Lindfors <klas@yubico.com>
+
+	* NEWS, configure.ac: add NEWS for next version and mark it as 1.0.0 relates #25
+
+2015-07-06  Klas Lindfors <klas@yubico.com>
+
+	* u2f-host/authenticate.c, u2f-host/internal.h, u2f-host/register.c: 
+	don't use sleep() in the library on windows use Sleep() and others usleep()
+
+2015-07-03  Klas Lindfors <klas@yubico.com>
+
+	* Makefile.am, configure.ac: add help2adoc for homepage building
+
+2015-07-03  Klas Lindfors <klas@yubico.com>
+
+	* src/cmdline.ggo: set package to u2f-host to get correct name in
+	help (and man)
+
+2015-06-06  Klas Lindfors <klas@yubico.com>
+
+	* Makefile.am: dist COPYING.LGPLv2 fixes #20
+
+2015-05-20  Klas Lindfors <klas@yubico.com>
+
+	* macosx.mk: fix path to the mac libraries
+
+2015-05-19  Klas Lindfors <klas@yubico.com>
+
+	* macosx.mk: add stuff to mac makefile so it works the linking with mac has to be fixed with install_name_tool, this
+	can never have worked..
+
+2015-04-10  Klas Lindfors <klas@yubico.com>
+
+	* windows.mk: fix windows build to use static-libgcc
+
+2015-04-10  Klas Lindfors <klas@yubico.com>
+
+	* NEWS, configure.ac: bump versions
+
+2015-03-12  Klas Lindfors <klas@yubico.com>
+
+	* configure.ac: correct filename relates #15
+
+2015-03-12  Klas Lindfors <klas@yubico.com>
+
+	* Makefile.am, configure.ac: select which udev file to install based
+	on udev version 188 is probaböly the correct version to check for..  resolves #15
+
+2015-03-12  Klas Lindfors <klas@yubico.com>
+
+	* 70-old-u2f.rules, 70-u2f.rules: add a udev rule for older udev
+	versions relates to #15
+
+2015-03-05  Klas Lindfors <klali@avm.se>
+
+	* : Merge pull request #14 from phoeagon/master add pam:// to the allowed origin
+
+2015-01-27  Klas Lindfors <klas@yubico.com>
+
+	* README: demo.yubico.com should use https
+
+2015-01-22  Simon Josefsson <simon@josefsson.org>
+
+	* Makefile.am: Typo.
+
+2015-01-22  Simon Josefsson <simon@josefsson.org>
+
+	* NEWS: Version 0.0.4.
+
+2015-01-22  Simon Josefsson <simon@josefsson.org>
+
+	* maint.mk: Update gnulib files.
+
+2015-01-22  Simon Josefsson <simon@josefsson.org>
+
+	* src/u2f-host.c, u2f-host/b64/cdecode.h, u2f-host/b64/cencode.h,
+	u2f-host/cdecode.c, u2f-host/cencode.c, u2f-host/devs.c,
+	u2f-host/inc/u2f.h, u2f-host/inc/u2f_hid.h, u2f-host/internal.h,
+	u2f-host/u2fmisc.c: Indent.
+
+2015-01-22  Simon Josefsson <simon@josefsson.org>
+
+	* NEWS: Add NEWS item.
+
+2015-01-20  Klas Lindfors <klas@yubico.com>
+
+	* u2f-host/u2fmisc.c: add an exponential growing timeout for slow
+	devices relates yubico/pam-u2f#5
+
+2015-01-20  Klas Lindfors <klas@yubico.com>
+
+	* NEWS, configure.ac: bump versions after release
+
+2015-01-08  Simon Josefsson <simon@josefsson.org>
+
+	* NEWS: Version 0.0.3.
+
+2015-01-08  Simon Josefsson <simon@josefsson.org>
+
+	* cfg.mk, u2f-host/devs.c, u2f-host/internal.h: Fix syntax check
+	nits.
+
+2015-01-08  Simon Josefsson <simon@josefsson.org>
+
+	* Makefile.am, NEWS: Add NEWS entries.  Dist more.
+
+2015-01-08  Simon Josefsson <simon@josefsson.org>
+
+	* .gitignore, COPYING.LGPLv2, Makefile.am, README, cfg.mk,
+	configure.ac, macosx.mk, src/Makefile.am, src/cmdline.ggo,
+	src/u2f-host.c, tests/Makefile.am, tests/basic.c,
+	u2f-host/Makefile.am, u2f-host/authenticate.c,
+	u2f-host/b64/cdecode.h, u2f-host/b64/cencode.h, u2f-host/cdecode.c,
+	u2f-host/cencode.c, u2f-host/devs.c, u2f-host/error.c,
+	u2f-host/global.c, u2f-host/inc/u2f.h, u2f-host/inc/u2f_hid.h,
+	u2f-host/internal.h, u2f-host/register.c,
+	u2f-host/u2f-host-types.h, u2f-host/u2f-host-version.h.in,
+	u2f-host/u2f-host.h, u2f-host/u2f-host.map, u2f-host/u2fmisc.c,
+	u2f-host/version.c, windows.mk: Update license and copyright.
+
+2015-01-08  Simon Josefsson <simon@josefsson.org>
+
+	* GNUmakefile, build-aux/snippet/arg-nonnull.h,
+	build-aux/snippet/c++defs.h, build-aux/snippet/warn-on-use.h,
+	build-aux/useless-if-before-free, build-aux/vc-list-files,
+	gl/Makefile.am, gl/check-version.c, gl/check-version.h,
+	gl/gl_openssl.h, gl/m4/00gnulib.m4, gl/m4/absolute-header.m4,
+	gl/m4/extensions.m4, gl/m4/extern-inline.m4, gl/m4/gl-openssl.m4,
+	gl/m4/gnulib-cache.m4, gl/m4/gnulib-common.m4,
+	gl/m4/gnulib-comp.m4, gl/m4/gnulib-tool.m4, gl/m4/include_next.m4,
+	gl/m4/ld-version-script.m4, gl/m4/longlong.m4,
+	gl/m4/manywarnings.m4, gl/m4/multiarch.m4, gl/m4/off_t.m4,
+	gl/m4/onceonly.m4, gl/m4/sha256.m4, gl/m4/ssize_t.m4,
+	gl/m4/stdalign.m4, gl/m4/stddef_h.m4, gl/m4/stdint.m4,
+	gl/m4/string_h.m4, gl/m4/strverscmp.m4, gl/m4/sys_types_h.m4,
+	gl/m4/warn-on-use.m4, gl/m4/warnings.m4, gl/m4/wchar_t.m4,
+	gl/sha256.c, gl/sha256.h, gl/stdalign.in.h, gl/stddef.in.h,
+	gl/stdint.in.h, gl/string.in.h, gl/strverscmp.c, gl/sys_types.in.h,
+	maint.mk: Use gnulib LGPLv2.
+
+2014-12-22  Simon Josefsson <simon@josefsson.org>
+
+	* : Merge pull request #12 from bramvd/versioninfo Add version information to u2fdevice and print in debug mode
+
+2014-12-22  Bram Vandoren <bram@bram.be>
+
+	* u2f-host/devs.c, u2f-host/internal.h: add version information to
+	u2fdevice and print in debug mode
+
+2014-12-21  Bram Vandoren <bram@bram.be>
+
+	* src/u2f-host.c: send errors to stderr instead of stdout
+
+2014-12-15  Alessio Di Mauro <alessio@yubico.com>
+
+	* .travis.yml: Dropped Windows build from Travis.
+
+2014-12-15  Alessio Di Mauro <alessio@yubico.com>
+
+	* .travis.yml: Added more dependencies to Travis build.
+
+2014-12-15  Alessio Di Mauro <alessio@yubico.com>
+
+	* .travis.yml, build-aux/travis: Updated Travis build.
+
+2014-12-15  Alessio Di Mauro <alessio@yubico.com>
+
+	* configure.ac, u2f-host/u2fmisc.c: Conditional definition of
+	json_object_object_get_ex().
+
+2014-12-10  Henrik Stråth <henrik.strath@gmail.com>
+
+	* doc/{ModeSwitchYubiKeyNEO.txt => Mode_switch_YubiKey_NEO.adoc}: 
+	Asciidoc polish.
+
+2014-12-10  Klas Lindfors <klas@yubico.com>
+
+	* u2f-host/authenticate.c, u2f-host/error.c,
+	u2f-host/u2f-host-types.h: try to make authenticate behave a bit
+	better
+
+2014-12-10  Klas Lindfors <klas@yubico.com>
+
+	* u2f-host/u2fmisc.c: add a timeout for hid_read()
+
+2014-12-10  Henrik Stråth <henrik@yubico.com>
+
+	* README, README.adoc: Corrected mistake with .adoc symlinking
+
+2014-12-08  Klas Lindfors <klas@yubico.com>
+
+	* .gitignore: ignore more
+
+2014-12-08  Klas Lindfors <klas@yubico.com>
+
+	* u2f-host/authenticate.c, u2f-host/register.c: fixup indentation
+
+2014-12-08  Klas Lindfors <klas@yubico.com>
+
+	* macosx.mk: add upload target for mac
+
+2014-12-08  Klas Lindfors <klas@yubico.com>
+
+	* u2f-host/authenticate.c, u2f-host/register.c: don't try to
+	comunicate with dead devices
+
+2014-12-02  Henrik Stråth <henrik.strath@gmail.com>
+
+	* NEWS, README.adoc: Polished README and NEWS
+
+2014-11-28  Klas Lindfors <klas@yubico.com>
+
+	* NEWS, configure.ac: bump versions
+
+2014-11-28  Klas Lindfors <klas@yubico.com>
+
+	* NEWS: NEWS for 0.0.2
+
+2014-11-27  Klas Lindfors <klas@yubico.com>
+
+	* 70-u2f.rules: one more pid for udev
+
+2014-11-24  Klas Lindfors <klas@yubico.com>
+
+	* 70-u2f.rules: whitelist more pids for udev
+
+2014-10-30  Klas Lindfors <klas@yubico.com>
+
+	* Makefile.am: publish signatures for windows builds
+
+2014-10-30  Klas Lindfors <klas@yubico.com>
+
+	* macosx.mk: replace wget with curl
+
+2014-10-29  Klas Lindfors <klas@yubico.com>
+
+	* NEWS, configure.ac: bump versions
+
+2014-10-29  Klas Lindfors <klas@yubico.com>
+
+	* NEWS, configure.ac: mark next version as 0.0.1 and add news for it
+
+2014-10-29  Klas Lindfors <klas@yubico.com>
+
+	* 70-u2f.rules: changing udev rule to use TAG+="uaccess" instead reports (and testing) indicates that ID_SECURITY_TOKEN did not work
+	on ubuntu 14.04 while uaccess works.
+
+2014-10-29  Klas Lindfors <klali@avm.se>
+
+	* : Merge pull request #9 from eworm-de/udev add option to install udev rules file
+
+2014-10-29  Klas Lindfors <klali@avm.se>
+
+	* : Merge pull request #7 from eworm-de/udev fix udev rule
+
+2014-10-27  Klas Lindfors <klali@avm.se>
+
+	* : Merge pull request #4 from pushcx/master fix udev rule for Ubuntu
+
+2014-10-08  Klas Lindfors <klas@yubico.com>
+
+	* u2f-host/authenticate.c: the keyhandle in signresponse is namned
+	keyHandle
+
+2014-09-25  Simon Josefsson <simon@josefsson.org>
+
+	* doc/ModeSwitchYubiKeyNEO.txt: Describe modes.
+
+2014-09-25  Simon Josefsson <simon@josefsson.org>
+
+	* doc/ModeSwitchYubiKeyNEO.txt: Markup.
+
+2014-09-25  Simon Josefsson <simon@josefsson.org>
+
+	* BLURB: Fix license shortname.
+
+2014-09-25  Simon Josefsson <simon@josefsson.org>
+
+	* doc/ModeSwitchYubiKeyNEO.txt: Add.
+
+2014-09-16  Simon Josefsson <simon@josefsson.org>
+
+	* README: Doc fixes.  Closes pull request #1.
+
+2014-09-16  Simon Josefsson <simon@josefsson.org>
+
+	* README: Layout fixes.
+
+2014-09-16  Simon Josefsson <simon@josefsson.org>
+
+	* README: Layout.
+
+2014-09-16  Simon Josefsson <simon@josefsson.org>
+
+	* NEWS, configure.ac: Bump versions.
+
+2014-09-16  Klas Lindfors <klas@yubico.com>
+
+	* macosx.mk: tarball is .xz
+
+2014-09-16  Simon Josefsson <simon@josefsson.org>
+
+	* .travis.yml, build-aux/travis: Add travis build.
+
+2014-09-16  Simon Josefsson <simon@josefsson.org>
+
+	* Makefile.am: Another release fix.
+
+2014-09-16  Simon Josefsson <simon@josefsson.org>
+
+	* .gitignore, Makefile.am: Fix release target.
+
+2014-09-16  Simon Josefsson <simon@josefsson.org>
+
+	* NEWS: Version 0.0.
+
+2014-09-16  Simon Josefsson <simon@josefsson.org>
+
+	* Makefile.am: Release target improvements.
+
+2014-09-16  Simon Josefsson <simon@josefsson.org>
+
+	* Initial commit.
+

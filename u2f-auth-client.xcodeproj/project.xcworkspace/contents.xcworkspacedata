@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:U2F Client Transport Plugin.xcodeproj">
+      location = "self:/Users/brandon/u2f-auth-client/u2f-auth-client.xcodeproj">
    </FileRef>
 </Workspace>

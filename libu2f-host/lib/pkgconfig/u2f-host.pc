@@ -1,0 +1,11 @@
+prefix=/usr/local/Cellar/libu2f-host/1.1.5_1
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Libu2f-host
+Description: Yubico Universal 2nd Factor (U2F) Host C Library
+URL: http://www.yubico.com/
+Version: 1.1.5
+Libs: -L${libdir} -lu2f-host
+Cflags: -I${includedir}/u2f-host
